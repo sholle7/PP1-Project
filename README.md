@@ -1,5 +1,5 @@
 # PP1-Project
-Complier for MicroJava programming language
+Complier for MicroJava programming language.
 
 The compiler has four phases: 
 
@@ -64,4 +64,4 @@ charConst = "'" printableChar "'".
 boolConst = ("true" | "false").
 ```
 
-MicroJava has single line comment (`//`).
+MicroJava has a single line comment (`//`).
