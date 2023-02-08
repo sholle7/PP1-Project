@@ -1,4 +1,4 @@
-# PP1-Project-
+# PP1-Project
 Complier for MicroJava programming language
 
 The compiler has four phases: 
