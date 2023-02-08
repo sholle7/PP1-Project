@@ -1,0 +1,59 @@
+INFO  16:02:07,399 - Compiling source file: D:\Fakultet\7.semestar\Programski prevodioci 1\Materijali\Projekat\PP1-projekat\workspace\MJCompiler\test\program.mj
+INFO  16:02:07,470 - #2 program
+INFO  16:02:07,470 - #28 test301
+INFO  16:02:07,471 - #22 {
+INFO  16:02:07,477 - #7 void
+INFO  16:02:07,478 - #28 main
+INFO  16:02:07,478 - #20 (
+INFO  16:02:07,481 - #21 )
+INFO  16:02:07,484 - #22 {
+INFO  16:02:07,487 - #5 print
+INFO  16:02:07,490 - #20 (
+INFO  16:02:07,491 - #27 1
+INFO  16:02:07,495 - #21 )
+INFO  16:02:07,505 - #16 ;
+INFO  16:02:07,505 - #23 }
+INFO  16:02:07,506 - #23 }
+INFO  16:02:07,511 - Program(
+  ProgIdent(
+   test301
+  ) [ProgIdent]
+  NoProgDecl(
+  ) [NoProgDecl]
+  MethodDeclList(
+    MethodDecl(
+      MethIdent(
+       main
+      ) [MethIdent]
+      FormPars(
+      ) [FormPars]
+      NoVarDeclL(
+      ) [NoVarDeclL]
+      StatementL(
+        NoStatementsL(
+        ) [NoStatementsL]
+        PrintStatement(
+          Expr(
+            SingleExpr(
+              Term(
+                SingleTerm(
+                  Factor(
+                    FactorNoMinus(
+                    ) [FactorNoMinus]
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                  ) [Factor]
+                ) [SingleTerm]
+              ) [Term]
+            ) [SingleExpr]
+          ) [Expr]
+          NoExpArg(
+          ) [NoExpArg]
+        ) [PrintStatement]
+      ) [StatementL]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  16:02:07,512 - ======================================================================
+INFO  16:02:07,536 - Parsiranje uspesno zavrseno!

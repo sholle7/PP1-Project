@@ -1,0 +1,392 @@
+INFO  20:08:53,411 - Compiling source file: D:\Fakultet\7.semestar\Programski prevodioci 1\Materijali\Projekat\PP1-projekat\workspace\MJCompiler\test\program.mj
+INFO  20:08:53,466 - #2 program
+INFO  20:08:53,466 - #28 test301
+INFO  20:08:53,467 - #3 const
+INFO  20:08:53,470 - #28 int
+INFO  20:08:53,470 - #28 nula
+INFO  20:08:53,474 - #15 =
+INFO  20:08:53,474 - #27 0
+INFO  20:08:53,474 - #16 ;
+INFO  20:08:53,476 - #3 const
+INFO  20:08:53,478 - #28 int
+INFO  20:08:53,479 - #28 jedan
+INFO  20:08:53,479 - #15 =
+INFO  20:08:53,479 - #27 1
+INFO  20:08:53,479 - #16 ;
+INFO  20:08:53,479 - #3 const
+INFO  20:08:53,480 - #28 int
+INFO  20:08:53,481 - #28 pet
+INFO  20:08:53,481 - #15 =
+INFO  20:08:53,481 - #27 5
+INFO  20:08:53,482 - #16 ;
+INFO  20:08:53,483 - #28 int
+INFO  20:08:53,483 - #28 niz
+INFO  20:08:53,486 - #24 [
+INFO  20:08:53,486 - #25 ]
+INFO  20:08:53,486 - #17 ,
+INFO  20:08:53,489 - #28 niz2
+INFO  20:08:53,489 - #24 [
+INFO  20:08:53,489 - #25 ]
+INFO  20:08:53,490 - #17 ,
+INFO  20:08:53,490 - #28 a
+INFO  20:08:53,490 - #17 ,
+INFO  20:08:53,491 - #28 b
+INFO  20:08:53,491 - #16 ;
+INFO  20:08:53,492 - #28 char
+INFO  20:08:53,494 - #28 nizch
+INFO  20:08:53,494 - #24 [
+INFO  20:08:53,494 - #25 ]
+INFO  20:08:53,494 - #16 ;
+INFO  20:08:53,495 - #22 {
+INFO  20:08:53,495 - #7 void
+INFO  20:08:53,495 - #28 main
+INFO  20:08:53,495 - #20 (
+INFO  20:08:53,497 - #21 )
+INFO  20:08:53,499 - #28 int
+INFO  20:08:53,499 - #28 bodovi
+INFO  20:08:53,500 - #16 ;
+INFO  20:08:53,500 - #22 {
+INFO  20:08:53,502 - #28 nizch
+INFO  20:08:53,503 - #15 =
+INFO  20:08:53,503 - #4 new
+INFO  20:08:53,506 - #28 int
+INFO  20:08:53,506 - #24 [
+INFO  20:08:53,508 - #27 3
+INFO  20:08:53,508 - #25 ]
+INFO  20:08:53,512 - #16 ;
+INFO  20:08:53,515 - #28 bodovi
+INFO  20:08:53,516 - #15 =
+INFO  20:08:53,516 - #29 a
+INFO  20:08:53,516 - #16 ;
+INFO  20:08:53,517 - #28 niz1
+INFO  20:08:53,517 - #15 =
+INFO  20:08:53,517 - #28 b
+INFO  20:08:53,517 - #16 ;
+INFO  20:08:53,518 - #28 nula
+INFO  20:08:53,518 - #15 =
+INFO  20:08:53,519 - #29 c
+INFO  20:08:53,519 - #16 ;
+INFO  20:08:53,519 - #5 print
+INFO  20:08:53,519 - #20 (
+INFO  20:08:53,519 - #28 nula
+INFO  20:08:53,519 - #8 +
+INFO  20:08:53,520 - #29 d
+INFO  20:08:53,524 - #21 )
+INFO  20:08:53,526 - #16 ;
+INFO  20:08:53,526 - #23 }
+INFO  20:08:53,526 - #23 }
+INFO  20:08:53,534 - Program(
+  ProgIdent(
+   test301
+  ) [ProgIdent]
+  ProgVarDecl(
+    ProgVarDecl(
+      ProgConstDecl(
+        ProgConstDecl(
+          ProgConstDecl(
+            NoProgDecl(
+            ) [NoProgDecl]
+            ConstDecl(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              ConstNumber(
+               nula
+               0
+              ) [ConstNumber]
+              NoConstL(
+              ) [NoConstL]
+            ) [ConstDecl]
+          ) [ProgConstDecl]
+          ConstDecl(
+            ConstType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstType]
+            ConstNumber(
+             jedan
+             1
+            ) [ConstNumber]
+            NoConstL(
+            ) [NoConstL]
+          ) [ConstDecl]
+        ) [ProgConstDecl]
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          ConstNumber(
+           pet
+           5
+          ) [ConstNumber]
+          NoConstL(
+          ) [NoConstL]
+        ) [ConstDecl]
+      ) [ProgConstDecl]
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclListMultiple(
+          VarFromMultiplePart(
+           niz
+            ListSquareBracketsMultiple(
+            ) [ListSquareBracketsMultiple]
+          ) [VarFromMultiplePart]
+          VarDeclListMultiple(
+            VarFromMultiplePart(
+             niz2
+              ListSquareBracketsMultiple(
+              ) [ListSquareBracketsMultiple]
+            ) [VarFromMultiplePart]
+            VarDeclListMultiple(
+              VarFromMultiplePart(
+               a
+                ListSquareBracketsSingle(
+                ) [ListSquareBracketsSingle]
+              ) [VarFromMultiplePart]
+              VarDeclListSingle(
+                VarDeclSing(
+                 b
+                  ListSquareBracketsSingle(
+                  ) [ListSquareBracketsSingle]
+                ) [VarDeclSing]
+              ) [VarDeclListSingle]
+            ) [VarDeclListMultiple]
+          ) [VarDeclListMultiple]
+        ) [VarDeclListMultiple]
+      ) [VarDecl]
+    ) [ProgVarDecl]
+    VarDecl(
+      VarType(
+        Type(
+         char
+        ) [Type]
+      ) [VarType]
+      VarDeclListSingle(
+        VarDeclSing(
+         nizch
+          ListSquareBracketsMultiple(
+          ) [ListSquareBracketsMultiple]
+        ) [VarDeclSing]
+      ) [VarDeclListSingle]
+    ) [VarDecl]
+  ) [ProgVarDecl]
+  MethodDeclList(
+    MethodDecl(
+      MethIdent(
+       main
+      ) [MethIdent]
+      FormPars(
+      ) [FormPars]
+      VarDeclL(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          VarDeclListSingle(
+            VarDeclSing(
+             bodovi
+              ListSquareBracketsSingle(
+              ) [ListSquareBracketsSingle]
+            ) [VarDeclSing]
+          ) [VarDeclListSingle]
+        ) [VarDecl]
+        NoVarDeclL(
+        ) [NoVarDeclL]
+      ) [VarDeclL]
+      StatementL(
+        StatementL(
+          StatementL(
+            StatementL(
+              StatementL(
+                NoStatementsL(
+                ) [NoStatementsL]
+                DesigStatement(
+                  AssignDesignatorSt(
+                    DesignatorSingle(
+                     nizch
+                    ) [DesignatorSingle]
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      SingleExpr(
+                        Term(
+                          SingleTerm(
+                            Factor(
+                              FactorNoMinus(
+                              ) [FactorNoMinus]
+                              FactorNew(
+                                FactorNewParam(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  Expr(
+                                    SingleExpr(
+                                      Term(
+                                        SingleTerm(
+                                          Factor(
+                                            FactorNoMinus(
+                                            ) [FactorNoMinus]
+                                            FactorNum(
+                                             3
+                                            ) [FactorNum]
+                                          ) [Factor]
+                                        ) [SingleTerm]
+                                      ) [Term]
+                                    ) [SingleExpr]
+                                  ) [Expr]
+                                ) [FactorNewParam]
+                              ) [FactorNew]
+                            ) [Factor]
+                          ) [SingleTerm]
+                        ) [Term]
+                      ) [SingleExpr]
+                    ) [Expr]
+                  ) [AssignDesignatorSt]
+                ) [DesigStatement]
+              ) [StatementL]
+              DesigStatement(
+                AssignDesignatorSt(
+                  DesignatorSingle(
+                   bodovi
+                  ) [DesignatorSingle]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    SingleExpr(
+                      Term(
+                        SingleTerm(
+                          Factor(
+                            FactorNoMinus(
+                            ) [FactorNoMinus]
+                            FactorChar(
+                             a
+                            ) [FactorChar]
+                          ) [Factor]
+                        ) [SingleTerm]
+                      ) [Term]
+                    ) [SingleExpr]
+                  ) [Expr]
+                ) [AssignDesignatorSt]
+              ) [DesigStatement]
+            ) [StatementL]
+            DesigStatement(
+              AssignDesignatorSt(
+                DesignatorSingle(
+                 niz1
+                ) [DesignatorSingle]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  SingleExpr(
+                    Term(
+                      SingleTerm(
+                        Factor(
+                          FactorNoMinus(
+                          ) [FactorNoMinus]
+                          FactorD(
+                            DesignatorSingle(
+                             b
+                            ) [DesignatorSingle]
+                          ) [FactorD]
+                        ) [Factor]
+                      ) [SingleTerm]
+                    ) [Term]
+                  ) [SingleExpr]
+                ) [Expr]
+              ) [AssignDesignatorSt]
+            ) [DesigStatement]
+          ) [StatementL]
+          DesigStatement(
+            AssignDesignatorSt(
+              DesignatorSingle(
+               nula
+              ) [DesignatorSingle]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                SingleExpr(
+                  Term(
+                    SingleTerm(
+                      Factor(
+                        FactorNoMinus(
+                        ) [FactorNoMinus]
+                        FactorChar(
+                         c
+                        ) [FactorChar]
+                      ) [Factor]
+                    ) [SingleTerm]
+                  ) [Term]
+                ) [SingleExpr]
+              ) [Expr]
+            ) [AssignDesignatorSt]
+          ) [DesigStatement]
+        ) [StatementL]
+        PrintStatement(
+          Expr(
+            MultipleExpr(
+              SingleExpr(
+                Term(
+                  SingleTerm(
+                    Factor(
+                      FactorNoMinus(
+                      ) [FactorNoMinus]
+                      FactorD(
+                        DesignatorSingle(
+                         nula
+                        ) [DesignatorSingle]
+                      ) [FactorD]
+                    ) [Factor]
+                  ) [SingleTerm]
+                ) [Term]
+              ) [SingleExpr]
+              AddopPlus(
+              ) [AddopPlus]
+              Term(
+                SingleTerm(
+                  Factor(
+                    FactorNoMinus(
+                    ) [FactorNoMinus]
+                    FactorChar(
+                     d
+                    ) [FactorChar]
+                  ) [Factor]
+                ) [SingleTerm]
+              ) [Term]
+            ) [MultipleExpr]
+          ) [Expr]
+          NoExpArg(
+          ) [NoExpArg]
+        ) [PrintStatement]
+      ) [StatementL]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  20:08:53,535 - ======================================================================
+INFO  20:08:53,556 - Deklarisana je konstanta: nula na liniji 5
+INFO  20:08:53,556 - Deklarisana je konstanta: jedan na liniji 6
+INFO  20:08:53,557 - Deklarisana je konstanta: pet na liniji 7
+INFO  20:08:53,557 - Deklarisan je globalni niz: niz na liniji 9
+INFO  20:08:53,557 - Deklarisan je globalni niz: niz2 na liniji 9
+INFO  20:08:53,557 - Deklarisana je globalna promenljiva: a na liniji 9
+INFO  20:08:53,557 - Deklarisana je globalna promenljiva: b na liniji 9
+INFO  20:08:53,558 - Deklarisan je globalni niz: nizch na liniji 10
+INFO  20:08:53,558 - Deklarisana je lokalna promenljiva: bodovi na liniji 14
+ERROR 20:08:53,559 - Tipovi izraza moraju biti kompatabilni! na liniji 18
+ERROR 20:08:53,559 - Tipovi izraza moraju biti kompatabilni! na liniji 19
+ERROR 20:08:53,559 - Neuspesna dodela vrednosti, simbol: niz1 nije prethodno deklarisan! na liniji 20
+ERROR 20:08:53,559 - Tipovi izraza moraju biti kompatabilni! na liniji 20
+ERROR 20:08:53,559 - Neispravna dodela vrednosti, dodela vrednosti moze da se koristi samo za elemente niza ili za promenljive! na liniji 21
+ERROR 20:08:53,559 - Tipovi izraza moraju biti kompatabilni! na liniji 21
+ERROR 20:08:53,560 - Print statement moze da koristi samo izraze tipa int/char/bool! na liniji 7
+ERROR 20:08:53,560 - Parsiranje neuspesno zavrseno! - postoji semanticka greska

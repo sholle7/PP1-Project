@@ -1,0 +1,174 @@
+INFO  17:51:59,730 - Compiling source file: D:\Fakultet\7.semestar\Programski prevodioci 1\Materijali\Projekat\PP1-projekat\workspace\MJCompiler\test\program.mj
+INFO  17:51:59,749 - #2 program
+INFO  17:51:59,749 - #28 test301
+INFO  17:51:59,750 - #3 const
+INFO  17:51:59,751 - #28 int
+INFO  17:51:59,752 - #28 nula
+INFO  17:51:59,753 - #15 =
+INFO  17:51:59,753 - #27 0
+INFO  17:51:59,753 - #16 ;
+INFO  17:51:59,755 - #3 const
+INFO  17:51:59,757 - #28 int
+INFO  17:51:59,757 - #28 jedan
+INFO  17:51:59,757 - #15 =
+INFO  17:51:59,757 - #27 1
+INFO  17:51:59,757 - #16 ;
+INFO  17:51:59,758 - #3 const
+INFO  17:51:59,758 - #28 int
+INFO  17:51:59,758 - #28 pet
+INFO  17:51:59,758 - #15 =
+INFO  17:51:59,758 - #27 5
+INFO  17:51:59,759 - #16 ;
+INFO  17:51:59,759 - #28 int
+INFO  17:51:59,759 - #28 niz
+INFO  17:51:59,759 - #24 [
+INFO  17:51:59,759 - #25 ]
+INFO  17:51:59,759 - #17 ,
+INFO  17:51:59,762 - #28 niz2
+INFO  17:51:59,762 - #24 [
+INFO  17:51:59,763 - #25 ]
+INFO  17:51:59,763 - #17 ,
+INFO  17:51:59,763 - #28 a
+INFO  17:51:59,763 - #17 ,
+INFO  17:51:59,764 - #28 b
+INFO  17:51:59,764 - #16 ;
+INFO  17:51:59,766 - #28 char
+INFO  17:51:59,768 - #28 nizch
+INFO  17:51:59,768 - #24 [
+INFO  17:51:59,768 - #25 ]
+INFO  17:51:59,768 - #16 ;
+INFO  17:51:59,768 - #22 {
+INFO  17:51:59,768 - #7 void
+INFO  17:51:59,768 - #28 main
+INFO  17:51:59,769 - #20 (
+INFO  17:51:59,769 - #21 )
+INFO  17:51:59,770 - #28 int
+INFO  17:51:59,772 - #28 bodovi
+INFO  17:51:59,772 - #16 ;
+INFO  17:51:59,772 - #28 bool
+INFO  17:51:59,772 - #28 bt
+INFO  17:51:59,772 - #16 ;
+INFO  17:51:59,772 - #22 {
+INFO  17:51:59,773 - #23 }
+INFO  17:51:59,774 - #23 }
+INFO  17:51:59,779 - Program(
+  ProgIdent(
+   test301
+  ) [ProgIdent]
+  ProgVarDecl(
+    ProgVarDecl(
+      ProgConstDecl(
+        ProgConstDecl(
+          ProgConstDecl(
+            NoProgDecl(
+            ) [NoProgDecl]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstNumber(
+               nula
+               0
+              ) [ConstNumber]
+              NoConstL(
+              ) [NoConstL]
+            ) [ConstDecl]
+          ) [ProgConstDecl]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstNumber(
+             jedan
+             1
+            ) [ConstNumber]
+            NoConstL(
+            ) [NoConstL]
+          ) [ConstDecl]
+        ) [ProgConstDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstNumber(
+           pet
+           5
+          ) [ConstNumber]
+          NoConstL(
+          ) [NoConstL]
+        ) [ConstDecl]
+      ) [ProgConstDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       niz
+        Square(
+        ) [Square]
+        SqList(
+         niz2
+          Square(
+          ) [Square]
+          SqList(
+           a
+            NoSquare(
+            ) [NoSquare]
+            SqList(
+             b
+              NoSquare(
+              ) [NoSquare]
+              NoSqList(
+              ) [NoSqList]
+            ) [SqList]
+          ) [SqList]
+        ) [SqList]
+      ) [VarDecl]
+    ) [ProgVarDecl]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+     nizch
+      Square(
+      ) [Square]
+      NoSqList(
+      ) [NoSqList]
+    ) [VarDecl]
+  ) [ProgVarDecl]
+  MethodDeclList(
+    MethodDecl(
+     main
+      FormPars(
+      ) [FormPars]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclL(
+          ) [NoVarDeclL]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoSquare(
+            ) [NoSquare]
+            NoSqList(
+            ) [NoSqList]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          NoSquare(
+          ) [NoSquare]
+          NoSqList(
+          ) [NoSqList]
+        ) [VarDecl]
+      ) [VarDeclL]
+      NoStatementsL(
+      ) [NoStatementsL]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:51:59,780 - ===================================

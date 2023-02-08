@@ -1,0 +1,293 @@
+INFO  17:55:16,256 - Compiling source file: D:\Fakultet\7.semestar\Programski prevodioci 1\Materijali\Projekat\PP1-projekat\workspace\MJCompiler\test\program.mj
+INFO  17:55:16,328 - #2 program
+INFO  17:55:16,329 - #28 test301
+INFO  17:55:16,329 - #3 const
+INFO  17:55:16,334 - #28 int
+INFO  17:55:16,334 - #28 nula
+INFO  17:55:16,340 - #15 =
+INFO  17:55:16,340 - #27 0
+INFO  17:55:16,341 - #16 ;
+INFO  17:55:16,343 - #3 const
+INFO  17:55:16,345 - #28 int
+INFO  17:55:16,346 - #28 jedan
+INFO  17:55:16,346 - #15 =
+INFO  17:55:16,346 - #27 1
+INFO  17:55:16,346 - #16 ;
+INFO  17:55:16,346 - #3 const
+INFO  17:55:16,347 - #28 int
+INFO  17:55:16,347 - #28 pet
+INFO  17:55:16,347 - #15 =
+INFO  17:55:16,347 - #27 5
+INFO  17:55:16,349 - #16 ;
+INFO  17:55:16,349 - #28 int
+INFO  17:55:16,349 - #28 niz
+INFO  17:55:16,352 - #24 [
+INFO  17:55:16,352 - #25 ]
+INFO  17:55:16,353 - #17 ,
+INFO  17:55:16,356 - #28 niz2
+INFO  17:55:16,357 - #24 [
+INFO  17:55:16,357 - #25 ]
+INFO  17:55:16,358 - #17 ,
+INFO  17:55:16,358 - #28 a
+INFO  17:55:16,358 - #17 ,
+INFO  17:55:16,361 - #28 b
+INFO  17:55:16,361 - #16 ;
+INFO  17:55:16,361 - #28 char
+INFO  17:55:16,364 - #28 nizch
+INFO  17:55:16,365 - #24 [
+INFO  17:55:16,365 - #25 ]
+INFO  17:55:16,365 - #16 ;
+INFO  17:55:16,365 - #22 {
+INFO  17:55:16,365 - #7 void
+INFO  17:55:16,366 - #28 main
+INFO  17:55:16,366 - #20 (
+INFO  17:55:16,369 - #21 )
+INFO  17:55:16,372 - #28 int
+INFO  17:55:16,372 - #28 bodovi
+INFO  17:55:16,372 - #16 ;
+INFO  17:55:16,373 - #28 bool
+INFO  17:55:16,373 - #28 bt
+INFO  17:55:16,373 - #16 ;
+INFO  17:55:16,373 - #22 {
+INFO  17:55:16,376 - #5 print
+INFO  17:55:16,377 - #20 (
+INFO  17:55:16,378 - #27 1
+INFO  17:55:16,381 - #21 )
+INFO  17:55:16,393 - #16 ;
+INFO  17:55:16,393 - #5 print
+INFO  17:55:16,394 - #20 (
+INFO  17:55:16,394 - #29 a
+INFO  17:55:16,395 - #21 )
+INFO  17:55:16,395 - #16 ;
+INFO  17:55:16,395 - #5 print
+INFO  17:55:16,395 - #20 (
+INFO  17:55:16,396 - #26 true
+INFO  17:55:16,396 - #21 )
+INFO  17:55:16,396 - #16 ;
+INFO  17:55:16,397 - #23 }
+INFO  17:55:16,397 - #23 }
+INFO  17:55:16,408 - Program(
+  ProgIdent(
+   test301
+  ) [ProgIdent]
+  ProgVarDecl(
+    ProgVarDecl(
+      ProgConstDecl(
+        ProgConstDecl(
+          ProgConstDecl(
+            NoProgDecl(
+            ) [NoProgDecl]
+            ConstDecl(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              ConstNumber(
+               nula
+               0
+              ) [ConstNumber]
+              NoConstL(
+              ) [NoConstL]
+            ) [ConstDecl]
+          ) [ProgConstDecl]
+          ConstDecl(
+            ConstType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstType]
+            ConstNumber(
+             jedan
+             1
+            ) [ConstNumber]
+            NoConstL(
+            ) [NoConstL]
+          ) [ConstDecl]
+        ) [ProgConstDecl]
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          ConstNumber(
+           pet
+           5
+          ) [ConstNumber]
+          NoConstL(
+          ) [NoConstL]
+        ) [ConstDecl]
+      ) [ProgConstDecl]
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclListMultiple(
+          VarFromMultiplePart(
+           niz
+            ListSquareBracketsMultiple(
+            ) [ListSquareBracketsMultiple]
+          ) [VarFromMultiplePart]
+          VarDeclListMultiple(
+            VarFromMultiplePart(
+             niz2
+              ListSquareBracketsMultiple(
+              ) [ListSquareBracketsMultiple]
+            ) [VarFromMultiplePart]
+            VarDeclListMultiple(
+              VarFromMultiplePart(
+               a
+                ListSquareBracketsSingle(
+                ) [ListSquareBracketsSingle]
+              ) [VarFromMultiplePart]
+              VarDeclListSingle(
+                VarDeclSing(
+                 b
+                  ListSquareBracketsSingle(
+                  ) [ListSquareBracketsSingle]
+                ) [VarDeclSing]
+              ) [VarDeclListSingle]
+            ) [VarDeclListMultiple]
+          ) [VarDeclListMultiple]
+        ) [VarDeclListMultiple]
+      ) [VarDecl]
+    ) [ProgVarDecl]
+    VarDecl(
+      VarType(
+        Type(
+         char
+        ) [Type]
+      ) [VarType]
+      VarDeclListSingle(
+        VarDeclSing(
+         nizch
+          ListSquareBracketsMultiple(
+          ) [ListSquareBracketsMultiple]
+        ) [VarDeclSing]
+      ) [VarDeclListSingle]
+    ) [VarDecl]
+  ) [ProgVarDecl]
+  MethodDeclList(
+    MethodDecl(
+      MethIdent(
+       main
+      ) [MethIdent]
+      FormPars(
+      ) [FormPars]
+      VarDeclL(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          VarDeclListSingle(
+            VarDeclSing(
+             bodovi
+              ListSquareBracketsSingle(
+              ) [ListSquareBracketsSingle]
+            ) [VarDeclSing]
+          ) [VarDeclListSingle]
+        ) [VarDecl]
+        VarDeclL(
+          VarDecl(
+            VarType(
+              Type(
+               bool
+              ) [Type]
+            ) [VarType]
+            VarDeclListSingle(
+              VarDeclSing(
+               bt
+                ListSquareBracketsSingle(
+                ) [ListSquareBracketsSingle]
+              ) [VarDeclSing]
+            ) [VarDeclListSingle]
+          ) [VarDecl]
+          NoVarDeclL(
+          ) [NoVarDeclL]
+        ) [VarDeclL]
+      ) [VarDeclL]
+      StatementL(
+        StatementL(
+          StatementL(
+            NoStatementsL(
+            ) [NoStatementsL]
+            PrintStatement(
+              Expr(
+                SingleExpr(
+                  Term(
+                    SingleTerm(
+                      Factor(
+                        FactorNoMinus(
+                        ) [FactorNoMinus]
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                      ) [Factor]
+                    ) [SingleTerm]
+                  ) [Term]
+                ) [SingleExpr]
+              ) [Expr]
+              NoExpArg(
+              ) [NoExpArg]
+            ) [PrintStatement]
+          ) [StatementL]
+          PrintStatement(
+            Expr(
+              SingleExpr(
+                Term(
+                  SingleTerm(
+                    Factor(
+                      FactorNoMinus(
+                      ) [FactorNoMinus]
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [Factor]
+                  ) [SingleTerm]
+                ) [Term]
+              ) [SingleExpr]
+            ) [Expr]
+            NoExpArg(
+            ) [NoExpArg]
+          ) [PrintStatement]
+        ) [StatementL]
+        PrintStatement(
+          Expr(
+            SingleExpr(
+              Term(
+                SingleTerm(
+                  Factor(
+                    FactorNoMinus(
+                    ) [FactorNoMinus]
+                    FactorBool(
+                     true
+                    ) [FactorBool]
+                  ) [Factor]
+                ) [SingleTerm]
+              ) [Term]
+            ) [SingleExpr]
+          ) [Expr]
+          NoExpArg(
+          ) [NoExpArg]
+        ) [PrintStatement]
+      ) [StatementL]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:55:16,409 - ======================================================================
+INFO  17:55:16,435 - Deklarisana je konstanta: nula na liniji 5
+INFO  17:55:16,436 - Deklarisana je konstanta: jedan na liniji 6
+INFO  17:55:16,436 - Deklarisana je konstanta: pet na liniji 7
+INFO  17:55:16,436 - Deklarisan je globalni niz: niz na liniji 9
+INFO  17:55:16,436 - Deklarisan je globalni niz: niz2 na liniji 9
+INFO  17:55:16,437 - Deklarisana je globalna promenljiva: a na liniji 9
+INFO  17:55:16,437 - Deklarisana je globalna promenljiva: b na liniji 9
+INFO  17:55:16,437 - Deklarisan je globalni niz: nizch na liniji 10
+INFO  17:55:16,437 - Deklarisana je lokalna promenljiva: bodovi na liniji 14
+INFO  17:55:16,437 - Deklarisana je lokalna promenljiva: bt na liniji 15
+INFO  17:55:16,443 - Parsiranje uspesno zavrseno!
