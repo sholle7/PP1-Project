@@ -10,11 +10,11 @@ The compiler has four phases:
 
 This is all compiled through the Compiler.java file.
 
+
 ## 	Description
  ![MicroJavaProcess](MicroJavaProcess.png)
- ## Main language features # MicroJava_Compiler
-
-
+ 
+ 
 ## Syntax
 ```
 Program = "program" ident {ConstDecl | VarDecl | ClassDecl } "{" {MethodDecl} "}"
