@@ -26,15 +26,15 @@ MethodDecl = (Type | "void") ident "(" [FormPars] ")" {VarDecl} "{" {Statement} 
 FormPars = Type ident ["[" "]"] {"," Type ident ["[" "]"]}
 Type = ident
 Statement = DesignatorStatement ";"
-| "if" "(" Condition ")" Statement ["else" Statement]
-| "while" "(" Condition ")" Statement
-| "break" ";"
-| "continue" ";"
-| "return" [Expr] ";"
-| "read" "(" Designator ")" ";"
-| "print" "(" Expr ["," numConst] ")" ";"
-| Designator "." "foreach" "(" ident "=>" Statement ")" ";"
-| "{" {Statement} "}"
+          | "if" "(" Condition ")" Statement ["else" Statement]
+          | "while" "(" Condition ")" Statement
+          | "break" ";"
+          | "continue" ";"
+          | "return" [Expr] ";"
+          | "read" "(" Designator ")" ";"
+          | "print" "(" Expr ["," numConst] ")" ";"
+          | Designator "." "foreach" "(" ident "=>" Statement ")" ";"
+          | "{" {Statement} "}"
 DesignatorStatement = Designator (Assignop Expr | "(" [ActPars] ")" | "++" | "‐‐")
 | "[" [Designator] {"," [Designator]}"]" "=" Designator
 ActPars = Expr {"," Expr}
@@ -44,11 +44,11 @@ CondFact = Expr [Relop Expr]
 Expr = ["‐"] Term {Addop Term}
 Term = Factor {Mulop Factor}
 Factor = Designator ["(" [ActPars] ")"]
-| numConst
-| charConst
-| boolConst
-| "new" Type ( "[" Expr "]" | "(" [ActPars] ")" )
-| "(" Expr ")"
+       | numConst
+       | charConst
+       | boolConst
+       | "new" Type ( "[" Expr "]" | "(" [ActPars] ")" )
+       | "(" Expr ")"    
 Designator = ident {"." ident | "[" Expr "]"}
 Label = ident
 Assignop = "="
